@@ -54,8 +54,8 @@ export const Pokemon = () => {
             <div>
                 <h1>{error.message}</h1>
             </div>
-        )
-    }
+        );
+    };
 
     return (
         <>
@@ -77,5 +77,5 @@ export const Pokemon = () => {
             </div>
         </section>
         </>
-    )
-}
+    );
+};
