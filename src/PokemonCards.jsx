@@ -39,5 +39,5 @@ export const PokemonCards = ({ pokemonData }) => {
                 </div>
             </div>
         </li>
-    )
-}
+    );
+};
