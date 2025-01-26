@@ -1,12 +1,28 @@
-# React + Vite
+# Pokémon Search Web App
+A simple React-based web app that allows users to search and explore various Pokémon. This app uses the PokeAPI to fetch data about Pokémon and displays it in a user-friendly interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+* Search for Pokémon by name
+* View detailed information about each Pokémon
+* Responsive design
+
+# Technologies Used
+* React.js
+* CSS (for styling)
+* PokeAPI (for fetching Pokémon data)
 
 # Preview Link: 
 * https://pokemon-web-avinashs97.netlify.app/
 
+**Feel free to contribute your own practice examples to this repository!**
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Contact
+
+For any questions or inquiries, please reach out to:
+[Avinash Kumar](https://www.linkedin.com/in/avinash-kumar-481a7b201/)
+
+Project Link: [GitHub Repository](https://github.com/AvinashS97/pokemon_react) 
+
+Happy Coding...👍
+

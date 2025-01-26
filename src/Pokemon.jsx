@@ -19,7 +19,7 @@ export const Pokemon = () => {
                 const res = await fetch (curPokemon.url);
                 const data = await res.json();
                 return data;
-            })
+            });
             // console.log(detailedPokemonData);
 
             const detailedResponses = await Promise.all(detailedPokemonData);
@@ -30,24 +30,23 @@ export const Pokemon = () => {
             console.log(error);
             setLoading(false);
             setError(error);
-        }
-    }
+        };
+    };
 
     useEffect(()=> {  
         fetchPokemon();
     }, []);
 
-    // Search
-
-    const searchData = pokemon.filter((curPokemon) => curPokemon.name.toLowerCase().includes(search.toLowerCase()))
+    //* Search Functionality
+    const searchData = pokemon.filter((curPokemon) => curPokemon.name.toLowerCase().includes(search.toLowerCase()));
 
     if(loading) {
         return (
             <div>
                 <h1>Loading...</h1>
             </div>
-        )
-    }
+        );
+    };
 
     if(error) {
         return (
@@ -61,10 +60,10 @@ export const Pokemon = () => {
         <>
         <section className="container">
             <header>
-                <h1>Lets Catch Pokemon</h1>
+                <h1>Lets Catch Pokémon</h1>
             </header>
             <div className="pokemon-search">
-            <input type="text" placeholder="search Pokemon" value={search} onChange= {(e) => setSearch(e.target.value)} />
+            <input type="text" placeholder="Search Pokemon" value={search} onChange= {(e) => setSearch(e.target.value)} />
             </div>
             <div>
                 <ul className="cards">
